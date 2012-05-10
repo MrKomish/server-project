@@ -34,9 +34,11 @@ body {
 	border-bottom: 3px solid white;
 	border-top: 5px solid white;
 }
-.red-color{
-    background: red;
-}
-.green-color{
-    background: green;
+.container-white{
+    padding:7px;
+    background: #ffffff;
+    -moz-border-radius: 10px;
+    border-radius: 10px 10px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
 }

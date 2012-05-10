@@ -12,18 +12,14 @@ exports.index = function(req, res){
     }
     writeData = data;
 
-        writeData++;
-        fs.writeFile("test.txt", writeData, function (write, data) {
+    writeData++;
+    fs.writeFile("test.txt", writeData, function (write, data) {
 
-            res.render('index', { title: 'Express', writeData: writeData});
+         res.render('index', { title: 'CenterSite', title2: 'sharklend', writeData: writeData});
 
-        });
-
-
-
+    });
 
 });
-
 
 
 };

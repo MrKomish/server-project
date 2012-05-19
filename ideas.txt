@@ -1,0 +1,173 @@
+<div class="container-fluid show-2 hide">
+  <div class="row-fluid">
+    <div class="span2 container-white">
+      <!--Sidebar content-->
+    </div>
+    <div class="span10 container-white">
+      <!--Body content-->
+<div class="container-fluid">
+       <div class="row-fluid">
+         <div class="span3 red">
+           <h2>{{title2}}</h2>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 green">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 blue">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 orange">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+       </div>
+</div>
+<br />
+<div class="container-fluid">
+       <div class="row-fluid">
+         <div class="span3 red">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 green">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 blue">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 orange">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+       </div>
+</div>
+<br />
+<div class="container-fluid">
+       <div class="row-fluid">
+         <div class="span3 red">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 green">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 blue">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 orange">
+           <h1>{{title2}}</h1>
+           <p>Welcome to {{title2}}</p>
+           {{writeData}}
+           </div>
+       </div>
+</div>
+<br />
+<div class="container-fluid">
+       <div class="row-fluid">
+         <div class="span3 red">
+           <h1>{{title2}}</h1>
+           <p>Welcome To {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 green">
+           <h1>{{title2}}</h1>
+           <p>Welcome To {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 blue">
+           <h1>{{title2}}</h1>
+           <p>Welcome To {{title2}}</p>
+           {{writeData}}
+           </div>
+
+           <div class="span3 orange">
+           <h1>{{title2}}</h1>
+           <p>Welcome To {{title2}}</p>
+           {{writeData}}
+           </div>
+       </div>
+</div>
+
+</div>
+</div>
+</div>
+<!---
+<div class='container navbar-fixed-bottom'>
+     <div class="pagination">
+        <ul>
+          <li class="active-1 disabled click_1 1"><a>«</a></li>
+          <li class="active-1 active click_1"><a>1</a></li>
+          <li class="active-2 click_2"><a>2</a></li>
+          <li class="click_2 2"><a>»</a></li>
+        </ul>
+     </div>
+</div>
+<script>
+$('.click_2').click(function() {
+  $('.show-1').animate({
+    marginLeft: "5000px"
+  },1000);
+  $('.show-2').animate({
+      marginLeft: "70px"
+  },1000);
+  $('.show-1').hide(200);
+  $('.active-1').removeClass("active");
+  $('.1').removeClass("disabled");
+  $('.active-2').addClass("active");
+  $('.2').addClass("disabled");
+  $('.show-2').fadeIn(1000);
+});
+$('.click_1').click(function() {
+  $('.show-2').animate({
+    marginLeft: "5000px"
+  },1000);
+  $('.show-1').animate({
+    marginLeft: "70px"
+  },1000);
+  $('.show-2').hide(200);
+  $('.active-2').removeClass("active");
+  $('.2').removeClass("disabled");
+  $('.active-1').addClass("active");
+  $('.1').addClass("disabled");
+  $('.show-1').fadeIn(1000);
+  $('.container-add').animate({
+     marginLeft: "-10px",
+     marginRight: "-10px"
+  },0);
+});
+$('.span3').click(function () {
+  $(this).hide(2000, function () {
+      $(this).remove();
+   });
+});
+  $('.container-add').addClass("container");
+</script>

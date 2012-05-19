@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: #000000;
   padding: 30px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: white;
@@ -8,26 +8,34 @@ body {
 .red{
     padding: 15px;
     background: red;
-    -moz-border-radius: 10px;
-    border-radius: 10px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px 3px;
 }
 .green{
     padding: 15px;
     background: green;
-    -moz-border-radius: 10px;
-    border-radius: 10px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px 3px;
 }
 .blue{
     padding: 15px;
     background: DarkBlue;
-    -moz-border-radius: 10px;
-    border-radius: 10px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px 3px;
 }
 .orange{
     padding: 15px;
     background: orange;
-    -moz-border-radius: 10px;
-    border-radius: 10px 10px;
+    -moz-border-radius: 3px;
+    border-radius: 3px 3px;
+}
+.container-gray{
+    padding: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background: gray;
+    -moz-border-radius: 3px;
+    border-radius: 3px 3px;
 }
 .black{
     padding: 5px;
